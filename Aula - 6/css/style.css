@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: #131313;
+}
+
+h1 {
+  color: white;
+  font-family: ‘Roboto’, sans-serif;
+}
+
+h2 {
+  color: steelblue;
+}
+
+p {
+  color: #bdbdbd;
+  font-family: ‘Roboto’, sans-serif;
+}
+
+a {
+  color: yellow;
+}
+
+.media-picture {
+  width: 100%;
+  height: 400px;
+  background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2021/08/235a1cfb-99bb-4f98-be35-b0ee8575f82a.__CR001464600_PT0_SX1464_V1___-1024x420.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.review-score {
+  color: white;
+  background-color: #e6bd09;
+  padding: 12px;
+}
