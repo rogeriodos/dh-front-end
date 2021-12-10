@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #fcf8ec;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.content {
+  padding: 42px;
+  background: #168942;
+  border-radius: 4px;
+}
+
+::placeholder {
+  color: #adadad;
+  font-size: 1.125rem;
+}
+.input-control {
+  border-radius: 4px;
+  width: 100%;
+  height: 2.375rem;
+  margin-bottom: 2rem;
+  padding: 0.375rem 0.75rem;
+}
+
+.input-age {
+  display: flex;
+}
+
+span {
+  color: rgb(156, 156, 156);
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.title-form h1 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #168942;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 62px;
+
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.title-form p {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-align: center;
+
+  margin: 12px 0 35px 0;
+
+  animation-name: fadeOut;
+  animation-duration: 2s;
+}
+label {
+  font-size: 1.125rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.ponto-turistico {
+  margin-top: 2rem;
+}
+
+.input-radio,
+.input-checkbox {
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+  display: inline-block;
+  margin-right: 0.625rem;
+}
+
+select {
+  font-size: 1.25rem;
+  color: #cbdb2a;
+}
+
+.label-radio {
+  margin-bottom: 15px;
+}
+
+.like-check {
+  display: flex;
+}
+.ckecked {
+  margin-bottom: 36px;
+}
+.form-group.ckecked label {
+  margin-bottom: 0.8rem;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 4px;
+  padding: 0.625rem;
+  margin-bottom: 32px;
+}
+
+/*====== BOTOES ====== */
+.custon-buttons {
+  display: flex;
+}
+
+button {
+  color: white;
+  font-size: 1.25rem;
+  width: 50%;
+  padding: 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+button[type='reset'] {
+  background: #adadad;
+  margin-right: 8px;
+}
+button[type='reset']:hover {
+  background: #555555;
+  transform: scale(0.8);
+}
+
+button[type='submit'] {
+  background: #cbdb2a;
+}
+button[type='submit']:hover {
+  background: #cbdb2a;
+  color: #ffffff;
+  transform: scale(0.8);
+}
+
+/* =========== ANIMAÇÃO ============ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+    transform: translate(300px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
