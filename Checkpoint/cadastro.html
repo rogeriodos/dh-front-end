@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Cadastro</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/cadastro.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="fundo">
+      <header>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Voltar</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="container">
+        <div class="title-form">
+          <h1>Formulário de Cadastro</h1>
+          <p>Preencha todos os dados</p>
+        </div>
+        <main>
+          <div class="content">
+            <form action="">
+              <div class="form-group">
+                <label for="">Nome</label>
+                <input
+                  type="text"
+                  placeholder="Digite seu nome"
+                  class="input-control"
+                />
+
+                <label for="">Email</label>
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Digite seu Email"
+                  class="input-control"
+                />
+
+                <div class="input-age">
+                  <label for="">Data de Nascimento</label>
+                </div>
+                <input
+                  type="date"
+                  name=""
+                  id=""
+                  min="10"
+                  max="99"
+                  placeholder="Age"
+                  class="input-control"
+                />
+              </div>
+
+              <div class="form-group">
+                <p>Maior de idade ?</p>
+                <label class="label-radio">
+                  <input
+                    type="radio"
+                    name="user-rememmend"
+                    id=""
+                    class="input-radio"
+                    value="sim"
+                    checked="checked"
+                  />
+                  Sim
+                </label>
+                <label class="label-radio">
+                  <input
+                    type="radio"
+                    name="user-rememmend"
+                    id=""
+                    class="input-radio"
+                    value="nao"
+                  />
+                  Não
+                </label>
+              </div>
+
+              <div class="form-group ponto-turistico">
+                <p>Ponto turístico favorito em Belo Horizonte?</p>
+                <select
+                  name=""
+                  id=""
+                  class="input-control"
+                  class="input-control"
+                >
+                  <option selected disabled value="">
+                    Selecione uma opção
+                  </option>
+                  <option value="">Lagoinha</option>
+                  <option value="">Praça Sete de Setembro</option>
+                  <option value="">Praça Raul Soares</option>
+                  <option value="">Mirante</option>
+                  <option value="">Outros</option>
+                </select>
+              </div>
+
+              <div class="form-group ckecked">
+                <div class="like-check">
+                  <p>Quais seus interesses em Belo Horizonte</p>
+                  &nbsp;
+                  <span>(opcional)</span>
+                </div>
+                <label for="">
+                  <input type="checkbox" name="" id="" class="input-checkbox" />
+                  Turístico
+                </label>
+
+                <label for="">
+                  <input type="checkbox" name="" id="" class="input-checkbox" />
+                  Resindencial
+                </label>
+
+                <label for="">
+                  <input type="checkbox" name="" id="" class="input-checkbox" />
+                  Estudantil
+                </label>
+
+                <label for="">
+                  <input type="checkbox" name="" id="" class="input-checkbox" />
+                  Curiosidades
+                </label>
+
+                <label for="">
+                  <input type="checkbox" name="" id="" class="input-checkbox" />
+                  A trabalho
+                </label>
+
+                <label for="">
+                  <input type="checkbox" name="" id="" class="input-checkbox" />
+                  Outros motivos
+                </label>
+              </div>
+
+              <div class="form-group">
+                <p>Conte-nos o que achou da Cidade?</p>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows=""
+                  placeholder="Digite aqui sua mensagem ..."
+                ></textarea>
+              </div>
+              <div class="custon-buttons">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>
